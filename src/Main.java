@@ -41,7 +41,7 @@ public class Main {
 
     private static void startNewGame() {
         StartNewGame game = new StartNewGame(6);
-        //System.out.println("НАЧАЛА СЯ ИГРА");
+        //System.out.println("НАЧАЛАСЯ ИГРА");
     }
 
 
