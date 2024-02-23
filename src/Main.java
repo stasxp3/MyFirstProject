@@ -56,7 +56,7 @@ public class Main {
     }
 
     private static void rules() {
-        System.out.println("ТУТ У НАС ПРАВИЛА");
+        System.out.println("ТУТ У НАС БУДУТ ПРАВИЛА");
     }
 
     private static void options() {
