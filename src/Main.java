@@ -10,7 +10,7 @@ public class Main {
         String command;
         System.out.println("ИГРА \"ЛАБИРИНТ\"\n");
         do {
-            System.out.println("ВЫБИРАЙ\n");
+            //System.out.println("ВЫБИРАЙ\n");
             System.out.println("[1]-СТАРТ ИГРЫ" +"   " +"[2]-ОПЦИИ" +"   "+ "[3]-ПРАВИЛА ИГРЫ" +"   " + "[4]-О ПРОГРАММЕ" +"   " + "[5]-ВЫХОД");
             command = in.next();
             switch (command) {
@@ -40,7 +40,7 @@ public class Main {
     }
 
     private static void startNewGame() {
-        StartNewGame game = new StartNewGame(6);
+        StartNewGame game = new StartNewGame(13);
         //System.out.println("НАЧАЛАСЯ ИГРА");
     }
 
